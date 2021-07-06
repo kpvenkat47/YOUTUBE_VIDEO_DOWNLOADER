@@ -26,7 +26,7 @@ def DWN():
         y = pytube.YouTube(videourl)
         video = y.streams.first()
 
-        video.download('D:')
+        video.download('D:')#Choose download location on your system
         messagebox.showinfo("Completed","File is ready go and check Local Disk D:")
 
         w.destroy()
